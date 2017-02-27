@@ -1,0 +1,155 @@
+Trial 1
+User defined setup: Size=5, Type=grid, Move=bulldozer, Gold=1, Pit=3, Bat=1, Adv=[yes,no]
+External init_agent...
+-------------------------------
+|     |     |   B |     |     |
+-------------------------------
+|     |     |  P G|     |     |
+-------------------------------
+|     |     |     |  P  |  P  |
+-------------------------------
+|     | A   |     |     |     |
+-------------------------------
+|     |W    |     |     |     |
+-------------------------------
+wumpus_move_rule(bulldozer)
+wumpus_health(alive)
+wumpus_orientation(270)
+wumpus_location(2,1)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(2,2)
+agent_arrows(1)
+agent_gold(0)
+
+External action #1: run_agent([yes,no,no,no,no,no],goforward)
+-------------------------------
+|     |     |   B |     |     |
+-------------------------------
+|     |     |  P G|     |     |
+-------------------------------
+|     |     |     |  P  |  P  |
+-------------------------------
+|     |     | A   |     |     |
+-------------------------------
+|     |W    |     |     |     |
+-------------------------------
+wumpus_move_rule(bulldozer)
+wumpus_health(alive)
+wumpus_orientation(0)
+wumpus_location(2,1)
+wumpus_last_action(turnleft)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(3,2)
+agent_arrows(1)
+agent_gold(0)
+
+External action #2: run_agent([no,no,no,no,no,no],goforward)
+-------------------------------
+|     |     |   B |     |     |
+-------------------------------
+|     |     |  P G|     |     |
+-------------------------------
+|     |     |     |  P  |  P  |
+-------------------------------
+|     |     |     | A   |     |
+-------------------------------
+|     |W    |     |     |     |
+-------------------------------
+wumpus_move_rule(bulldozer)
+wumpus_health(alive)
+wumpus_orientation(0)
+wumpus_location(2,1)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(4,2)
+agent_arrows(1)
+agent_gold(0)
+
+External action #3: run_agent([no,yes,no,no,no,no],goforward)
+-------------------------------
+|     |     |   B |     |     |
+-------------------------------
+|     |     |  P G|     |     |
+-------------------------------
+|     |     |     |  P  |  P  |
+-------------------------------
+|     |     |     |     | A   |
+-------------------------------
+|     |     |W    |     |     |
+-------------------------------
+wumpus_move_rule(bulldozer)
+wumpus_health(alive)
+wumpus_orientation(0)
+wumpus_location(3,1)
+wumpus_last_action(goforward)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(5,2)
+agent_arrows(1)
+agent_gold(0)
+
+External action #4: run_agent([no,yes,no,no,no,no],goforward)
+Not possible! Bumped a wall!
+-------------------------------
+|     |     |   B |     |     |
+-------------------------------
+|     |     |  P G|     |     |
+-------------------------------
+|     |     |     |  P  |  P  |
+-------------------------------
+|     |     |     |     | A   |
+-------------------------------
+|     |     |W    |     |     |
+-------------------------------
+wumpus_move_rule(bulldozer)
+wumpus_health(alive)
+wumpus_orientation(0)
+wumpus_location(3,1)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(5,2)
+agent_arrows(1)
+agent_gold(0)
+
+External action #5: run_agent([no,yes,no,yes,no,no],goforward)
+Not possible! Bumped a wall!
+-------------------------------
+|     |     |   B |     |     |
+-------------------------------
+|     |     |  P G|     |     |
+-------------------------------
+|     |     |     |  P  |  P  |
+-------------------------------
+|     |     |     |     | A   |
+-------------------------------
+|     |     |     |W    |     |
+-------------------------------
+wumpus_move_rule(bulldozer)
+wumpus_health(alive)
+wumpus_orientation(0)
+wumpus_location(4,1)
+wumpus_last_action(goforward)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(5,2)
+agent_arrows(1)
+agent_gold(0)
+
+External action #6: run_agent([no,yes,no,yes,no,no],goforward)
+Not possible! Bumped a wall!
+-------------------------------
+|     |     |   B |     |     |
+-------------------------------
+|     |     |  P G|     |     |
+--
