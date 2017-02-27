@@ -1,0 +1,176 @@
+Trial 1
+User defined setup: Size=4, Type=fig62, Move=stander, Gold=1, Pit=3, Bat=0, Adv=[no,no]
+External init_agent...
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+| A   |     |  P  |     |
+-------------------------
+wumpus_move_rule(stander)
+wumpus_health(alive)
+wumpus_orientation(270)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(1,1)
+agent_arrows(1)
+agent_gold(0)
+
+External action #1: run_agent([no,no,no,no,no,no],goforward)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(stander)
+wumpus_health(alive)
+wumpus_orientation(270)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+
+External action #2: run_agent([no,yes,no,no,no,no],turnleft)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(stander)
+wumpus_health(alive)
+wumpus_orientation(270)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+
+External action #3: run_agent([no,yes,no,no,no,no],goforward)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     | A   |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(stander)
+wumpus_health(alive)
+wumpus_orientation(270)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(2,2)
+agent_arrows(1)
+agent_gold(0)
+
+External action #4: run_agent([no,no,no,no,no,no],goforward)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    | A  G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(stander)
+wumpus_health(alive)
+wumpus_orientation(270)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(2,3)
+agent_arrows(1)
+agent_gold(0)
+
+External action #5: run_agent([yes,yes,yes,no,no,no],turnleft)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    | A  G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(stander)
+wumpus_health(alive)
+wumpus_orientation(270)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(180)
+agent_location(2,3)
+agent_arrows(1)
+agent_gold(0)
+
+External action #6: run_agent([yes,yes,yes,no,no,no],shoot)
+You now have 0 arrow(s).
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    | A  G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(stander)
+wumpus_health(dead)
+wumpus_orientation(270)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(180)
+agent_location(2,3)
+agent_arrows(0)
+agent_gold(0)
+
+External action #7: run_agent([yes,yes,yes,no,yes,no],grab)
+You now have 1 piece(s) of gold!
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    | A   |  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(stander)
+wumpus_health(dead)
+wumpus_orientation(270)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientat

@@ -1,0 +1,683 @@
+Trial 1
+User defined setup: Size=4, Type=fig62, Move=walker, Gold=1, Pit=3, Bat=0, Adv=[yes,no]
+External init_agent...
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: turnright
+
+External action #1: run_agent([no,yes,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(270)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: climb
+
+External action #2: run_agent([no,yes,no,no,no,no],climb)
+You cannot leave the cave from here.
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(270)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: climb
+
+External action #3: run_agent([no,yes,no,no,no,no],climb)
+You cannot leave the cave from here.
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(270)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: goforward
+
+External action #4: run_agent([no,yes,no,no,no,no],goforward)
+Not possible! Bumped a wall!
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(270)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,yes,no,no]
+acao: direita
+
+External action #5: run_agent([no,yes,no,yes,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(180)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: turnright
+
+External action #6: run_agent([no,yes,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: turnright
+
+External action #7: run_agent([no,yes,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: turnright
+
+External action #8: run_agent([no,yes,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(270)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: climb
+
+External action #9: run_agent([no,yes,no,no,no,no],climb)
+You cannot leave the cave from here.
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(270)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: climb
+
+External action #10: run_agent([no,yes,no,no,no,no],climb)
+You cannot leave the cave from here.
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(270)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: climb
+
+External action #11: run_agent([no,yes,no,no,no,no],climb)
+You cannot leave the cave from here.
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(270)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: turnright
+
+External action #12: run_agent([no,yes,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(180)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: climb
+
+External action #13: run_agent([no,yes,no,no,no,no],climb)
+You cannot leave the cave from here.
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(180)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: turnright
+
+External action #14: run_agent([no,yes,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     | A   |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(2,1)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,yes,no,no,no,no]
+acao aleatoria com brisa: goforward
+
+External action #15: run_agent([no,yes,no,no,no,no],goforward)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     | A   |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(2,2)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,no,no,no,no,no]
+acao aleatoria outros casos: turnright
+
+External action #16: run_agent([no,no,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     | A   |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(2,2)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,no,no,no,no,no]
+acao aleatoria outros casos: turnright
+
+External action #17: run_agent([no,no,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     | A   |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(270)
+agent_location(2,2)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,no,no,no,no,no]
+acao aleatoria outros casos: turnright
+
+External action #18: run_agent([no,no,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     | A   |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(180)
+agent_location(2,2)
+agent_arrows(1)
+agent_gold(0)
+percebi: [no,no,no,no,no,no]
+acao aleatoria outros casos: goforward
+
+External action #19: run_agent([no,no,no,no,no,no],goforward)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+| A   |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(180)
+agent_location(1,2)
+agent_arrows(1)
+agent_gold(0)
+percebi: [yes,no,no,no,no,no]
+acao aleatoria com fedor, sem grito: turnright
+
+External action #20: run_agent([yes,no,no,no,no,no],turnright)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+| A   |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(alive)
+wumpus_orientation(180)
+wumpus_location(1,3)
+wumpus_last_action(sit)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(1,2)
+agent_arrows(1)
+agent_gold(0)
+percebi: [yes,no,no,no,no,no]
+acao aleatoria com fedor, sem grito: shoot
+
+External action #21: run_agent([yes,no,no,no,no,no],shoot)
+You now have 0 arrow(s).
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+| A   |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(dead)
+wumpus_orientation(90)
+wumpus_location(1,3)
+wumpus_last_action(turnright)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(1,2)
+agent_arrows(0)
+agent_gold(0)
+percebi: [yes,no,no,no,yes,no]
+acao com brisa, sem grito: frente
+
+External action #22: run_agent([yes,no,no,no,yes,no],goforward)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|WA   |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(dead)
+wumpus_orientation(90)
+wumpus_location(1,3)
+wumpus_last_action(turnright)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(1,3)
+agent_arrows(0)
+agent_gold(0)
+percebi: [yes,no,no,no,no,no]
+acao aleatoria com fedor, sem grito: shoot
+
+External action #23: run_agent([yes,no,no,no,no,no],shoot)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|WA   |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(dead)
+wumpus_orientation(90)
+wumpus_location(1,3)
+wumpus_last_action(turnright)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(1,3)
+agent_arrows(0)
+agent_gold(0)
+percebi: [yes,no,no,no,no,no]
+acao aleatoria com fedor, sem grito: shoot
+
+External action #24: run_agent([yes,no,no,no,no,no],shoot)
+-------------------------
+|     |     |     |  P  |
+-------------------------
+|WA   |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(dead)
+wumpus_orientation(90)
+wumpus_location(1,3)
+wumpus_last_action(turnright)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(1,3)
+agent_arrows(0)
+agent_gold(0)
+percebi: [yes,no,no,no,no,no]
+acao aleatoria com fedor, sem grito: goforward
+
+External action #25: run_agent([yes,no,no,no,no,no],goforward)
+-------------------------
+| A   |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(dead)
+wumpus_orientation(90)
+wumpus_location(1,3)
+wumpus_last_action(turnright)
+
+agent_health(alive)
+agent_orientation(90)
+agent_location(1,4)
+agent_arrows(0)
+agent_gold(0)
+percebi: [yes,no,no,no,no,no]
+acao aleatoria com fedor, sem grito: turnright
+
+External action #26: run_agent([yes,no,no,no,no,no],turnright)
+-------------------------
+| A   |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(dead)
+wumpus_orientation(90)
+wumpus_location(1,3)
+wumpus_last_action(turnright)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(1,4)
+agent_arrows(0)
+agent_gold(0)
+percebi: [yes,no,no,no,no,no]
+acao aleatoria com fedor, sem grito: shoot
+
+External action #27: run_agent([yes,no,no,no,no,no],shoot)
+-------------------------
+| A   |     |     |  P  |
+-------------------------
+|W    |    G|  P  |     |
+-------------------------
+|     |     |     |     |
+-------------------------
+|     |     |  P  |     |
+-------------------------
+wumpus_move_rule(walker)
+wumpus_health(dead)
+wumpus_orientation(90)
+wumpus_location(1,3)
+wumpus_last_action(turnright)
+
+agent_health(alive)
+agent_orientation(0)
+agent_location(1,4)
+agent_arrows(0)
+agent_gold(0)
+percebi: [yes,no,no,no,no,no]
+acao aleatoria com fedor, sem grito: goforward
+
+External action 
